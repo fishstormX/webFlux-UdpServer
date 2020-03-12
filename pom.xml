@@ -10,7 +10,7 @@
     </parent>
     <groupId>cn.fishmaple</groupId>
     <artifactId>webflux-udpserver</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>webflux-udpserver</name>
     <description>Demo project for Spring Boot</description>
 

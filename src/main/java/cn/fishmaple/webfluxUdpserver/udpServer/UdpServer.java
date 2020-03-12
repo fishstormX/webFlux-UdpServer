@@ -7,13 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Flux;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.time.Duration;
 import java.util.List;
-
+@Configuration
 public class UdpServer {
     private final String LOCALHOST_ADDRESS = "127.0.0.1";
 

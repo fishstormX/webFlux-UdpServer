@@ -14,7 +14,7 @@ public class UdpCommonHandler  extends ChannelInboundHandlerAdapter implements U
         String  preHandlerAfferentMsg = (String)msg; //得到消息后，可根据消息类型分发给不同的service去处理数据
         log.info("{}preHandler传入的数据{}"+preHandlerAfferentMsg);
         log.info("channelRead");
-        ctx.writeAndFlush("hello 帅小伙"); //返回数据给UDP Client
+        ctx.writeAndFlush("test Msg"); //返回数据给UDP Client
     }
 
     @Override
