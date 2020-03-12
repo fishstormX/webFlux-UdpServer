@@ -1,0 +1,7 @@
+syntax = "proto3"; // 指定使用 proto3 语法
+option java_package = "cn.fishmaple.webfluxUdpserver.proto";    //构建的proto类生成的包
+option java_outer_classname = "TestMsgProto";        //构建的类名
+message TestMsg {                    //Proto实体名，不能与类名相同
+    int32 id = 1;              //{数据类型} {数据列名} = {数据id}
+    string msgName = 2;
+}
